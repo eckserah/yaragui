@@ -1,0 +1,2382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94AF1357-3964-3D3F-9A31-78C7E279450C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>yaragui</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yaragui.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">yaragui</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">yaragui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yaragui.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">yaragui</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">yaragui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">yaragui.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">yaragui</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">yaragui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">yaragui.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">yaragui</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">yaragui</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\includes\;.\includes\libyara\include\;..\build\;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Qt\5.12.3\msvc2017_64\lib\Qt5Widgetsd.lib;boost_system.lib;boost_thread.lib;yara.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Guid.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\boost\;lib\libyara\%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/Debug/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/Debug/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\includes\;.\includes\libyara\include\;..\build\;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\qt\lib\Qt5Widgetsd.lib;libboost_system-vc141-mt-gd-x64-1_69.lib;libboost_thread-vc141-mt-gd-x64-1_69.lib;libyara64d.lib;..\qt\lib\Qt5Guid.lib;..\qt\lib\Qt5Cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\boost\;lib\libyara\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/Debug/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/Debug/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Qt\5.12.3\msvc2017_64\lib\Qt5Widgets.lib;boost_system.lib;boost_thread.lib;yara.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Gui.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>J:/repos/yaragui/./yara-3.6.1/libyara/.libs;J:/repos/yaragui/./yara-3.6.1/libyara/.libs/$(Configuration);/opt/boost/stage/lib;/opt/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/Release/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/Release/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.\includes\;.\includes\libyara\include\;..\build\;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\qt\lib\Qt5Widgets.lib;libboost_system-vc141-mt-x64-1_69.lib;libboost_thread-vc141-mt-x64-1_69.lib;libyara64.lib;..\qt\lib\Qt5Gui.lib;..\qt\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\boost\;lib\libyara\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/Release/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/Release/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <ShowProgress>LinkVerbose</ShowProgress>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Qt\5.12.3\msvc2017_64\lib\Qt5Widgets.lib;boost_system.lib;boost_thread.lib;yara.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Gui.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>J:/repos/yaragui/./yara-3.6.1/libyara/.libs;J:/repos/yaragui/./yara-3.6.1/libyara/.libs/$(Configuration);/opt/boost/stage/lib;/opt/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/MinSizeRel/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/MinSizeRel/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Qt\5.12.3\msvc2017_64\lib\Qt5Widgets.lib;boost_system.lib;boost_thread.lib;yara.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Gui.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>J:/repos/yaragui/./yara-3.6.1/libyara/.libs;J:/repos/yaragui/./yara-3.6.1/libyara/.libs/$(Configuration);/opt/boost/stage/lib;/opt/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/MinSizeRel/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/MinSizeRel/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Qt\5.12.3\msvc2017_64\lib\Qt5Widgets.lib;boost_system.lib;boost_thread.lib;yara.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Gui.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>J:/repos/yaragui/./yara-3.6.1/libyara/.libs;J:/repos/yaragui/./yara-3.6.1/libyara/.libs/$(Configuration);/opt/boost/stage/lib;/opt/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/RelWithDebInfo/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/RelWithDebInfo/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>J:\repos\yaragui\.\yara-3.6.1\libyara\include;\opt\boost;J:\repos\yaragui\.;G:\Qt\5.12.3\msvc2017_64\include;G:\Qt\5.12.3\msvc2017_64\include\QtWidgets;G:\Qt\5.12.3\msvc2017_64\include\QtGui;G:\Qt\5.12.3\msvc2017_64\include\QtANGLE;G:\Qt\5.12.3\msvc2017_64\include\QtCore;G:\Qt\5.12.3\msvc2017_64\.\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>G:\Qt\5.12.3\msvc2017_64\lib\Qt5Widgets.lib;boost_system.lib;boost_thread.lib;yara.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Gui.lib;G:\Qt\5.12.3\msvc2017_64\lib\Qt5Core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>J:/repos/yaragui/./yara-3.6.1/libyara/.libs;J:/repos/yaragui/./yara-3.6.1/libyara/.libs/$(Configuration);/opt/boost/stage/lib;/opt/boost/stage/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>J:/repos/yaragui/build/RelWithDebInfo/yaragui.lib</ImportLibrary>
+      <ProgramDataBaseFile>J:/repos/yaragui/build/RelWithDebInfo/yaragui.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_asio_events.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_asio_events.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_asio_events.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_asio_events.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_asio_events.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_asio_events.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_asio_events.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_asio_events.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_asio_events.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_asio_events.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\asio_events.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_asio_events.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_main_window.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_main_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_main_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_main_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_main_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_main_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_main_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_main_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_main_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_main_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\main_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_main_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_target_panel.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_target_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_target_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_target_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_target_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_target_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_target_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_target_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_target_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_target_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\target_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_target_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_match_panel.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_match_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_match_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_match_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_match_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_match_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_match_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_match_panel.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_match_panel.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_match_panel.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\match_panel.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_match_panel.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_rule_window.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_rule_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_rule_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_rule_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_rule_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_rule_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_rule_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_rule_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_rule_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_rule_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\rule_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_rule_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_compile_window.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_compile_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_compile_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_compile_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_compile_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_compile_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_compile_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_compile_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_compile_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_compile_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\compile_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_compile_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_about_window.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating src/moc_about_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/moc_about_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating src/moc_about_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/moc_about_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating src/moc_about_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/moc_about_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating src/moc_about_window.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/moc_about_window.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd J:\repos\yaragui\build\src
+if %errorlevel% neq 0 goto :cmEnd
+J:
+if %errorlevel% neq 0 goto :cmEnd
+G:\Qt\5.12.3\msvc2017_64\bin\moc.exe @J:/repos/yaragui/build/src/moc_about_window.cpp_parameters
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\src\about_window.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\src\moc_about_window.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\main_window.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_main_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_main_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_main_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_main_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_main_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_main_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_main_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_main_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_main_window.h J:/repos/yaragui/src/ui/main_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\ui_main_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\target_panel.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_target_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_target_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_target_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_target_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_target_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_target_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_target_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_target_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_target_panel.h J:/repos/yaragui/src/ui/target_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\ui_target_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\match_panel.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_match_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_match_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_match_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_match_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_match_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_match_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_match_panel.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_match_panel.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_match_panel.h J:/repos/yaragui/src/ui/match_panel.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\ui_match_panel.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\rule_window.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_rule_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_rule_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_rule_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_rule_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_rule_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_rule_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_rule_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_rule_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_rule_window.h J:/repos/yaragui/src/ui/rule_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\ui_rule_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\compile_window.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_compile_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_compile_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_compile_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_compile_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_compile_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_compile_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_compile_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_compile_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_compile_window.h J:/repos/yaragui/src/ui/compile_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\ui_compile_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\about_window.ui">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ui_about_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ui_about_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ui_about_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ui_about_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ui_about_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating ui_about_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ui_about_window.h</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ui_about_window.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\uic.exe -o J:/repos/yaragui/build/ui_about_window.h J:/repos/yaragui/src/ui/about_window.ui
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\ui_about_window.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\res\resources.qrc">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating qrc_resources.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating qrc_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating qrc_resources.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating qrc_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating qrc_resources.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating qrc_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating qrc_resources.cpp</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating qrc_resources.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+G:\Qt\5.12.3\msvc2017_64\bin\rcc.exe --name resources --output J:/repos/yaragui/build/qrc_resources.cpp J:/repos/yaragui/res/resources.qrc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\res\glyphicons-137-cogwheel.png;J:\repos\yaragui\res\glyphicons-145-folder-open.png;J:\repos\yaragui\res\glyphicons-196-info-sign.png;J:\repos\yaragui\res\glyphicons-319-more-items.png;J:\repos\yaragui\res\glyphicons-320-sort.png;J:\repos\yaragui\res\glyphicons-441-folder-closed.png;J:\repos\yaragui\res\glyphicons-82-refresh.png;J:\repos\yaragui\res\glyphicons-207-ok.png;J:\repos\yaragui\res\glyphicons-208-remove.png;J:\repos\yaragui\res\glyphicons-213-arrow-down.png;J:\repos\yaragui\res\glyphicons-214-arrow-up.png;J:\repos\yaragui\res\yaragui.png;J:\repos\yaragui\res\glyphicons-176-stop.png;J:\repos\yaragui\res\glyphicons-67-tags.png;J:\repos\yaragui\res\glyphicons-120-table.png;J:\repos\yaragui\res\glyphicons-200-ban-circle.png;J:\repos\yaragui\res\glyphicons-42-charts.png;J:\repos\yaragui\res\glyphicons-157-show-thumbnails.png;J:\repos\yaragui\res\glyphicons-460-header.png;J:\repos\yaragui\build\res\resources.qrc.depends;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\qrc_resources.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule J:/repos/yaragui/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/repos/yaragui -BJ:/repos/yaragui/build --check-stamp-file J:/repos/yaragui/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebGLIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;G:\Qt\5.12.3\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;J:\repos\yaragui\build\CMakeFiles\3.15.2\CMakeSystem.cmake;J:\repos\yaragui\res\resources.qrc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">J:\repos\yaragui\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="J:\repos\yaragui\src\main.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\asio_events.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\main_controller.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\settings.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\ruleset_manager.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\ruleset.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\ruleset_view.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\scanner.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\scanner_rule.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\main_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\target_panel.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\match_panel.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\rule_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\compile_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\about_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\gfx_renderer.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\stats_calculator.cpp" />
+    <ClCompile Include="J:\repos\yaragui\src\file_stats.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_asio_events.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_main_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_target_panel.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_match_panel.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_rule_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_compile_window.cpp" />
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_about_window.cpp" />
+    <ClInclude Include="J:\repos\yaragui\build\ui_main_window.h" />
+    <ClInclude Include="J:\repos\yaragui\build\ui_target_panel.h" />
+    <ClInclude Include="J:\repos\yaragui\build\ui_match_panel.h" />
+    <ClInclude Include="J:\repos\yaragui\build\ui_rule_window.h" />
+    <ClInclude Include="J:\repos\yaragui\build\ui_compile_window.h" />
+    <ClInclude Include="J:\repos\yaragui\build\ui_about_window.h" />
+    <ClCompile Include="J:\repos\yaragui\build\qrc_resources.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="J:\repos\yaragui\build\ZERO_CHECK.vcxproj">
+      <Project>{12EB6B43-E220-3275-83C5-02B0C23F7B5C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

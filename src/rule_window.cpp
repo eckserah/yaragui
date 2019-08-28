@@ -3,6 +3,7 @@
 #include <boost/make_shared.hpp>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/qaction.h>
 #include <QtGui/QKeyEvent>
 #include <QtGui/QDragEnterEvent>
 #include <QtGui/QDropEvent>

@@ -1,0 +1,8 @@
+-IJ:/repos/yaragui/./yara-3.6.1/libyara/include
+-I/opt/boost
+-IJ:/repos/yaragui/.
+-DWIN32
+--compiler-flavor=msvc
+-o
+J:/repos/yaragui/build/src/moc_compile_window.cpp
+J:/repos/yaragui/src/compile_window.h

@@ -4,10 +4,10 @@
 /* this is a high level interface to the scanner thread */
 /* it deal with rule objects rather than rule file paths for the purpose of caching compiled rules */
 
+#include <boost/asio.hpp>
 #include "ruleset.h"
 #include "scanner.h"
 #include "settings.h"
-#include <boost/asio.hpp>
 #include <boost/signals2.hpp>
 #include <vector>
 #include <list>

@@ -1,11 +1,11 @@
 #ifndef __GFX_RENDERER_H__
 #define __GFX_RENDERER_H__
 
+#include <boost/asio.hpp>
 #include "gfx_math.h"
 #include <boost/thread.hpp>
 #include <boost/atomic.hpp>
 #include <boost/shared_ptr.hpp>
-#include <boost/asio.hpp>
 #include <boost/signals2.hpp>
 #include <vector>
 

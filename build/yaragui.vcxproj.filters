@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="J:\repos\yaragui\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\asio_events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\main_controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\ruleset_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\ruleset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\ruleset_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\scanner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\scanner_rule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\target_panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\match_panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\rule_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\compile_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\about_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\gfx_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\stats_calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\src\file_stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_asio_events.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_target_panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_match_panel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_rule_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_compile_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\src\moc_about_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="J:\repos\yaragui\build\qrc_resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="J:\repos\yaragui\build\ui_main_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\repos\yaragui\build\ui_target_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\repos\yaragui\build\ui_match_panel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\repos\yaragui\build\ui_rule_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\repos\yaragui\build\ui_compile_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="J:\repos\yaragui\build\ui_about_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_asio_events.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_main_window.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_target_panel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_match_panel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_rule_window.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_compile_window.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\build\CMakeFiles\6ac5affe0e941105c1e957e6423c8104\moc_about_window.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="J:\repos\yaragui\src\ui\main_window.ui" />
+    <CustomBuild Include="J:\repos\yaragui\src\ui\target_panel.ui" />
+    <CustomBuild Include="J:\repos\yaragui\src\ui\match_panel.ui" />
+    <CustomBuild Include="J:\repos\yaragui\src\ui\rule_window.ui" />
+    <CustomBuild Include="J:\repos\yaragui\src\ui\compile_window.ui" />
+    <CustomBuild Include="J:\repos\yaragui\src\ui\about_window.ui" />
+    <CustomBuild Include="J:\repos\yaragui\res\resources.qrc" />
+    <CustomBuild Include="J:\repos\yaragui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{38961F5A-FE3B-39CF-BA4E-A33453232535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3DF370A9-3E51-3D54-9D72-900054E2D7DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{11ABF508-6253-3EDB-B66D-ADA01F1CBD1C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

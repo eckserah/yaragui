@@ -3,6 +3,7 @@
 
 /* this class arbitrates scan engine operations on behalf of the GUI */
 
+#include <boost/asio.hpp>
 #include "main_window.h"
 #include "rule_window.h"
 #include "compile_window.h"
@@ -10,7 +11,6 @@
 #include "settings.h"
 #include "ruleset_manager.h"
 #include "stats_calculator.h"
-#include <boost/asio.hpp>
 #include <boost/shared_ptr.hpp>
 
 class MainController

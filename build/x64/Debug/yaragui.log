@@ -1,0 +1,549 @@
+﻿  qrc_resources.cpp
+  moc_about_window.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  moc_asio_events.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  moc_compile_window.cpp
+  moc_main_window.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  moc_match_panel.cpp
+  moc_rule_window.cpp
+  moc_target_panel.cpp
+  about_window.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+J:\repos\yaragui\src\about_window.cpp(24): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+J:\repos\yaragui\src\about_window.cpp(152): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+J:\repos\yaragui\src\about_window.cpp(152): warning C4305: 'argument': truncation from 'double' to 'float'
+J:\repos\yaragui\src\about_window.cpp(157): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+J:\repos\yaragui\src\about_window.cpp(157): warning C4305: 'argument': truncation from 'double' to 'float'
+J:\repos\yaragui\src\about_window.cpp(164): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+J:\repos\yaragui\src\about_window.cpp(171): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+J:\repos\yaragui\src\about_window.cpp(196): warning C4305: 'argument': truncation from 'double' to 'float'
+J:\repos\yaragui\src\about_window.cpp(199): warning C4305: 'argument': truncation from 'double' to 'float'
+J:\repos\yaragui\src\about_window.cpp(206): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+J:\repos\yaragui\src\about_window.cpp(207): warning C4305: 'argument': truncation from 'double' to 'const T'
+          with
+          [
+              T=float
+          ]
+  compile_window.cpp
+  main.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  main_controller.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+J:\repos\yaragui\src\main_controller.cpp(31): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main_window.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+  match_panel.cpp
+  rule_window.cpp
+J:\repos\yaragui\src\rule_window.cpp(262): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  target_panel.cpp
+J:\repos\yaragui\src\target_panel.cpp(195): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+J:\repos\yaragui\src\target_panel.cpp(285): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+J:\repos\yaragui\src\target_panel.cpp(285): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+J:\repos\yaragui\src\target_panel.cpp(290): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+libyara64d.lib(e_padlock.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_padlock.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_capi.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_capi.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_utl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_utl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_tlsf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_tlsf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_sxnet.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_sxnet.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_skey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_skey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_purp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_purp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_prn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_prn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_pmaps.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_pmaps.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_pku.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_pku.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_pcons.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_pcons.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_pcia.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_pcia.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_pci.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_pci.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_ncons.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_ncons.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_int.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_int.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_info.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_info.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_ia5.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_ia5.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_genn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_genn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_extku.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_extku.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_enum.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_enum.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_crld.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_crld.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_cpols.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_cpols.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_conf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_conf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_bitst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_bitst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_bcons.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_bcons.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_asid.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_asid.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_alt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_alt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_akeya.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_akeya.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_akey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_akey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_addr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_addr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pcy_tree.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pcy_tree.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pcy_node.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pcy_node.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pcy_map.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pcy_map.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pcy_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pcy_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pcy_data.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pcy_data.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pcy_cache.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pcy_cache.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_x509a.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_x509a.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_x509.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_x509.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_req.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_req.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_pubkey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_pubkey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_name.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_name.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_exten.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_exten.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_crl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_crl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_attrib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_attrib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_all.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_all.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509rset.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509rset.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509name.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509name.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509cset.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509cset.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_vpm.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_vpm.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_vfy.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_vfy.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_v3.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_v3.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_txt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_txt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_trs.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_trs.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_set.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_set.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_req.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_req.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_obj.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_obj.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_lu.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_lu.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_ext.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_ext.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_def.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_def.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_cmp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_cmp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x509_att.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x509_att.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(t_x509.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(t_x509.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(wp_dgst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(wp_dgst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(wp_block.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(wp_block.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ui_openssl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ui_openssl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ui_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ui_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ui_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ui_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ts_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ts_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(threads_win.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(threads_win.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(stack.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(stack.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(sha512.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(sha512.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(sha256.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(sha256.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(sha1dgst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(sha1dgst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(sha1_one.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(sha1_one.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(seed_ofb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(seed_ofb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(seed_ecb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(seed_ecb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(seed_cfb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(seed_cfb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(seed_cbc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(seed_cbc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(seed.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(seed.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_x931.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_x931.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_ssl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_ssl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_sign.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_sign.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_saos.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_saos.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_pss.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_pss.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_pmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_pmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_pk1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_pk1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_ossl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_ossl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_oaep.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_oaep.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_none.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_none.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_meth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_meth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_gen.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_gen.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_crpt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_crpt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rsa_ameth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rsa_ameth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rmd_dgst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rmd_dgst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc4_skey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc4_skey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc4_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc4_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc2ofb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc2ofb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc2cfb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc2cfb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc2_skey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc2_skey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc2_ecb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc2_ecb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rc2_cbc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rc2_cbc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rand_win.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rand_win.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rand_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rand_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(rand_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(rand_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(md_rand.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(md_rand.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(poly1305.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(poly1305.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pkcs7err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pkcs7err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pk7_smime.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pk7_smime.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pk7_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pk7_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pk7_doit.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pk7_doit.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pk7_attr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pk7_attr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pk7_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pk7_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pk12err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pk12err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_utl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_utl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_p8e.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_p8e.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_p8d.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_p8d.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_key.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_key.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_decr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_decr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_crpt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_crpt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p12_asn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p12_asn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pem_x509.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pem_x509.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pem_pkey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pem_pkey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pem_pk8.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pem_pk8.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pem_oth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pem_oth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pem_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pem_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pem_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pem_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(v3_ocsp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(v3_ocsp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ocsp_ht.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ocsp_ht.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ocsp_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ocsp_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ocsp_asn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ocsp_asn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(obj_xref.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(obj_xref.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(obj_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(obj_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(obj_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(obj_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(obj_dat.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(obj_dat.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(o_names.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(o_names.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(o_time.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(o_time.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(o_str.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(o_str.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(o_fopen.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(o_fopen.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(xts128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(xts128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(wrap128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(wrap128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ofb128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ofb128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ocb128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ocb128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(gcm128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(gcm128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ctr128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ctr128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cfb128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cfb128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ccm128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ccm128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cbc128.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cbc128.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(mem_sec.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(mem_sec.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(mem_dbg.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(mem_dbg.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(mem_clr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(mem_clr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(mem.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(mem.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(mdc2dgst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(mdc2dgst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(md5_dgst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(md5_dgst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(md4_dgst.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(md4_dgst.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(lhash.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(lhash.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tls1_prf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tls1_prf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(kdf_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(kdf_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(hkdf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(hkdf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(init.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(init.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(i_skey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(i_skey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(i_ofb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(i_ofb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(i_ecb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(i_ecb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(i_cfb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(i_cfb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(i_cbc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(i_cbc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(hmac.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(hmac.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(hm_pmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(hm_pmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(hm_ameth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(hm_ameth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ex_data.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ex_data.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(scrypt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(scrypt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pmeth_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pmeth_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pmeth_gn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pmeth_gn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(pmeth_fn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(pmeth_fn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p_verify.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p_verify.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p_sign.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p_sign.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p5_crpt2.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p5_crpt2.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p5_crpt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p5_crpt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(names.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(names.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_wp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_wp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_sigver.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_sigver.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_sha1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_sha1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_ripemd.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_ripemd.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_mdc2.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_mdc2.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_md5_sha1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_md5_sha1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_md5.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_md5.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_md4.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_md4.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_pkey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_pkey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_pbe.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_pbe.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_key.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_key.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_cnf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_cnf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(encode.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(encode.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_xcbc_d.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_xcbc_d.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_seed.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_seed.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_rc4_hmac_md5.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_rc4_hmac_md5.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_rc4.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_rc4.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_rc2.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_rc2.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_idea.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_idea.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_des3.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_des3.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_des.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_des.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_chacha20_poly1305.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_chacha20_poly1305.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_cast.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_cast.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_camellia.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_camellia.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_bf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_bf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_aes_cbc_hmac_sha256.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_aes_cbc_hmac_sha256.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_aes_cbc_hmac_sha1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_aes_cbc_hmac_sha1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(e_aes.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(e_aes.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(digest.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(digest.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cmeth_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cmeth_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_alld.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_alld.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_allc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_allc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_md.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_md.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_b64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_b64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(err_prn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(err_prn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(err_all.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(err_all.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_rsa.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_rsa.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_rand.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_rand.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_pkmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_pkmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_eckey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_eckey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_dsa.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_dsa.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_digest.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_digest.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_dh.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_dh.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_cipher.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_cipher.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tb_asnmth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tb_asnmth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_table.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_table.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_rdrand.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_rdrand.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_pkey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_pkey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_openssl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_openssl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_list.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_list.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_init.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_init.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_fat.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_fat.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_dyn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_dyn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_ctrl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_ctrl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_cnf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_cnf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eng_all.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eng_all.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecx_meth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecx_meth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecp_smpl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecp_smpl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecp_oct.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecp_oct.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecp_nist.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecp_nist.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecp_mont.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecp_mont.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(eck_prn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(eck_prn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecdsa_vrf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecdsa_vrf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecdsa_sign.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecdsa_sign.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecdsa_ossl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecdsa_ossl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecdh_ossl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecdh_ossl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecdh_kdf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecdh_kdf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_print.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_print.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_pmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_pmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_oct.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_oct.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_mult.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_mult.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_kmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_kmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_key.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_key.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_cvt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_cvt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_curve.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_curve.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec_ameth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec_ameth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec2_smpl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec2_smpl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec2_oct.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec2_oct.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ec2_mult.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ec2_mult.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(curve25519.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(curve25519.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dso_win32.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dso_win32.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dso_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dso_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dso_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dso_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_vrf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_vrf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_sign.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_sign.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_pmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_pmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_ossl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_ossl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_meth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_meth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_key.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_key.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_gen.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_gen.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dsa_ameth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dsa_ameth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_rfc5114.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_rfc5114.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_pmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_pmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_key.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_key.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_kdf.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_kdf.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_gen.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_gen.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_check.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_check.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(dh_ameth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(dh_ameth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(xcbc_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(xcbc_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(set_key.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(set_key.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ofb64enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ofb64enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ofb64ede.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ofb64ede.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecb_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecb_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ecb3_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ecb3_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(des_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(des_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cfb_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cfb_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cfb64enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cfb64enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cfb64ede.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cfb64ede.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_x509v3.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_x509v3.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_vfy.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_vfy.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_sct_ctx.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_sct_ctx.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_sct.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_sct.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_prn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_prn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_oct.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_oct.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_log.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_log.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ct_b64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ct_b64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cryptlib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cryptlib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cpt_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cpt_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_sap.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_sap.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_mod.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_mod.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_mall.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_mall.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_def.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_def.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(conf_api.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(conf_api.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(comp_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(comp_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_zlib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_zlib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_sd.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_sd.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_pwri.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_pwri.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_kari.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_kari.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_io.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_io.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_env.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_env.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_dd.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_dd.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_att.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_att.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cms_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cms_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cmac.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cmac.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cm_pmeth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cm_pmeth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cm_ameth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cm_ameth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(chacha_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(chacha_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_skey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_skey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_ofb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_ofb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_ecb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_ecb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(c_cfb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(c_cfb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cmll_misc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cmll_misc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(cmll_cbc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(cmll_cbc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(camellia.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(camellia.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(buffer.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(buffer.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(buf_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(buf_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_word.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_word.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_sqrt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_sqrt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_sqr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_sqr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_shift.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_shift.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_recp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_recp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_rand.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_rand.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_print.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_print.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_prime.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_prime.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_nist.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_nist.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_mul.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_mul.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_mont.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_mont.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_mod.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_mod.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_kron.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_kron.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_intern.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_intern.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_gf2m.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_gf2m.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_gcd.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_gcd.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_exp2.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_exp2.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_exp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_exp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_div.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_div.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_dh.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_dh.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_ctx.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_ctx.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_blind.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_blind.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_asm.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_asm.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bn_add.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bn_add.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_blake2s.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_blake2s.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(m_blake2b.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(m_blake2b.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(blake2s.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(blake2s.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(blake2b.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(blake2b.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bss_sock.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bss_sock.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bss_null.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bss_null.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bss_mem.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bss_mem.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bss_file.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bss_file.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_meth.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_meth.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bf_buff.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bf_buff.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(b_sock2.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(b_sock2.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(b_sock.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(b_sock.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(b_print.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(b_print.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(b_dump.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(b_dump.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(b_addr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(b_addr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bf_skey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bf_skey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bf_ofb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bf_ofb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bf_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bf_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bf_ecb.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bf_ecb.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bf_cfb64.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bf_cfb64.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(async_wait.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(async_wait.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(async_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(async_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(async.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(async.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(async_win.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(async_win.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_val.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_val.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_spki.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_spki.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_sig.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_sig.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_long.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_long.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_bignum.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_bignum.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(x_algor.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(x_algor.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_utl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_utl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_typ.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_typ.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_prn.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_prn.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_new.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_new.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_fre.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_fre.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_enc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_enc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(tasn_dec.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(tasn_dec.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(t_pkey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(t_pkey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p8_pkey.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p8_pkey.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p5_scrypt.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p5_scrypt.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p5_pbev2.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p5_pbev2.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(p5_pbe.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(p5_pbe.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(i2d_pr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(i2d_pr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(f_string.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(f_string.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(f_int.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(f_int.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(evp_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(evp_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(d2i_pr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(d2i_pr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_ndef.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_ndef.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(bio_asn1.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(bio_asn1.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn_pack.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn_pack.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn_mstbl.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn_mstbl.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn_moid.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn_moid.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn_mime.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn_mime.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn1_par.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn1_par.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn1_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn1_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn1_gen.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn1_gen.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(asn1_err.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(asn1_err.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(ameth_lib.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(ameth_lib.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_verify.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_verify.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_utf8.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_utf8.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_utctm.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_utctm.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_type.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_type.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_time.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_time.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_strnid.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_strnid.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_strex.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_strex.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_sign.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_sign.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_print.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_print.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_octet.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_octet.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_object.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_object.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_mbstr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_mbstr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_int.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_int.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_i2d_fp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_i2d_fp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_gentm.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_gentm.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_dup.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_dup.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_digest.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_digest.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_d2i_fp.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_d2i_fp.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(a_bitstr.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(a_bitstr.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(aes_wrap.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(aes_wrap.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(aes_core.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(aes_core.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+libyara64d.lib(aes_cbc.obj) : warning LNK4099: PDB 'ossl_static.pdb' was not found with 'libyara64d.lib(aes_cbc.obj)' or at 'J:\repos\yaragui\build\Debug\ossl_static.pdb'; linking object as if no debug info
+  yaragui.vcxproj -> J:\repos\yaragui\build\x64\Debug\yaragui.exe

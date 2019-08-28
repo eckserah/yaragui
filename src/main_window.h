@@ -1,6 +1,7 @@
 #ifndef __MAIN_WINDOW_H__
 #define __MAIN_WINDOW_H__
 
+#include <boost/asio/io_service.hpp>
 #include "ui_main_window.h"
 #include "target_panel.h"
 #include "match_panel.h"
@@ -9,7 +10,6 @@
 #include "file_stats.h"
 #include "settings.h"
 #include <boost/signals2.hpp>
-#include <boost/asio/io_service.hpp>
 #include <QtCore/QSignalMapper>
 #include <QtCore/QTimer>
 #include <QtWidgets/QLabel>

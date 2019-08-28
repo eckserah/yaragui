@@ -1,9 +1,9 @@
 #ifndef __STATS_CALCULATOR_H__
 #define __STATS_CALCULATOR_H__
 
+#include <boost/asio.hpp>
 #include <boost/shared_ptr.hpp>
 #include <boost/signals2.hpp>
-#include <boost/asio.hpp>
 #include <boost/thread.hpp>
 #include <boost/atomic.hpp>
 #include "file_stats.h"
